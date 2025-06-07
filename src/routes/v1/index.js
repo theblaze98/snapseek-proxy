@@ -9,7 +9,6 @@ const v1Routes = Router()
 
 v1Routes.get('/photos', async (req, res) => {
   try {
-    console.log(process.env.UNPLASH_ACCESS_KEY);
     const response = await axiosInstance.get('/photos', {
       params: {
         ...req.query, 
