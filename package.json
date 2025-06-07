@@ -1,6 +1,5 @@
 {
   "name": "snapseek-proxy",
-  "packageManager": "yarn@4.6.0",
   "type": "module",
   "scripts": {
     "start": "node --env-file .env src/index.js",
