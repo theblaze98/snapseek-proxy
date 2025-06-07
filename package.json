@@ -2,7 +2,7 @@
   "name": "snapseek-proxy",
   "type": "module",
   "scripts": {
-    "start": "node --env-file .env src/index.js",
+    "start": "node src/index.js",
     "dev": "node --watch --env-file .env src/index.js"
   },
   "dependencies": {
